@@ -1,61 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-*{font-family: roboto;margin-left: 0%;margin-right: 0%;}
+*{font-family: roboto;margin: 0%; font-size: larger;font-size: 110%;}
 
-.Premier {background-color: antiquewhite;}
+header{text-align: center;height: 150px;font-size: 80px;overflow: hidden;}
 
-.Second{background-color: aquamarine;}
+section{height: 600px;font-size: 110%;overflow: hidden;padding-left: 20%;padding-right:20%;padding-top:3%;text-align: center;line-height: 200%;}
 
-.Trois{background-color: antiquewhite;}
+.barnav{background-color: #283747;color: #D5D8DC;height: 50px;font-size: 20px;display: flex;flex-wrap: wrap;overflow: hidden;align-items: center;justify-content: center;}
+.barnav p a:hover{background-color:rgba(241, 233, 233, 0.648);}
+.barnav p a{text-decoration: none; color: #D5D8DC;}
+.barnav p{margin-left: 50px;}
 
-#wrap {
-    width: 100%;
-    height: 55.7px;
-    margin: 0;
-    z-index: 99;
-    background-color: #444444;
-  }
-  .navbar {
-    height: 50px;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-  }
-  .navbar li {
-    height: auto;
-    width: 150px;
-    float: left;
-    text-align: center;
-    list-style: none;
-    font-family: normal bold 13px/1em roboto,Arial, Verdana, Helvetica;
-    padding: 0;
-    margin: 0;
-    background-color: #444444;
-  }
-  .navbar a {
-    padding: 18px 0;
-    text-decoration: none;
-    color: white;
-    display: block;
-  }
-  .navbar li ul {
-    display: none;
-    height: auto;
-    margin: 0;
-    padding: 0;
-  }
-  .navbar li:hover ul {
-    display: block;
-  }
-  .navbar li ul li {
-    background-color: #444444;
-  }
-  .navbar li ul li a {
-    border-left: 1px solid #444444;
-    border-right: 1px solid #444444;
-    border-top: 1px solid #ffffff;
-    border-bottom: 1px solid #444444;
-  }
-  .navbar li ul li a:hover {
-    background-color: #c61010;
-  }
+.Premier {background-color: #5D6D7E}
+
+.Second{background-color: #D5D8DC}
+
+.Trois{background-color: #5D6D7E}
+
+.Quatre{background-color: #D5D8DC}
+
+footer{background-color: #283747;height: 250px;color: #ffffff;font-size: 40px;overflow: hidden;}
+
+footer div p.retourautop a:hover{background-color: #FDFEFE}
+footer div p.retourautop a{text-decoration: none;color: black;}
+footer div p.retourautop{text-align: center; background-color: #5D6D7E;font-size: large;}
+
+footer div.Divliens{display: flex;justify-content: space-evenly;align-items: center;}
+
+.geopoimage{height: 150px;width: auto;}
+.hussardimage{height: 120px;width: auto;margin-top: 10px;}
+.eservicelogo{height: 80px;width: auto;}
+.youtubelogo{height: 200px;width: auto;}
+.netflix{height: 200px;width: auto;}
+.Flag{height: 50px;width: auto;margin-left: 20px;}
+.FlagFR{height: 50px;width: auto;}
+
+
+
+

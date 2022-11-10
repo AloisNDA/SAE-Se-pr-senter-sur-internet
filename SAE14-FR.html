@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,63 +9,91 @@
 </head>
 <body>
     <header>
-        <h1>Ma Présentation</h1>
+        <p id="hautdepage"><h1>Aloïs Néron de Azevedo</h1></p>
     </header>
 
-    <div id="wrap">
-        <ul class="navbar">
-            <li>
-                <a href="#">Menu</a>
-            </li>
-            <li>
-                <a href="#">Moi</a>
-                <ul>
-                    <li><a href="#">Exemple</a></li>
-                    <li><a href="#">Exemple</a></li>
-                </ul> 
-            </li>
-            <li>
-                <a href="#">Ma scolarité</a>
-                <ul>
-                    <li><a href="#">Exemple</a></li>
-                    <li><a href="#">Exemple</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">Projet personnelle</a>
-                <ul>
-                    <li><a href="#">Exemple</a></li>
-                    <li><a href="#">Exemple</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+    <nav class="barnav">
+        <p>Home</p>
+        <p><a href="#un">Moi</a></p>
+        <p><a href="#deux">Scolarité</a></p>
+        <p><a href="#trois">Projet personnelle</a></p>
+        <p><a href="#quatre">To sum up</a></p>
+        <a href="SAE14-AN.html"><img src="Flag.png" class="Flag"></a>
+    </nav>
 
-    <section class="Premier">
-        <div>
+    <section class="Premier" id="un">
+        <div class="moi">
             <h2>Moi :</h2>
-            <p>Je m'appelle Aloïs Neron de Azevedo. J'ai 17 ans, j'habite à Sélestat et je suis en 1ère année d'IUT à Colmar.</p>
+            <p>
+                Je m'appelle Aloïs Neron de Azevedo. J'ai 17 ans, j'habite à Sélestat et je suis en 1ère année d'IUT à Colmar.
+            </p>
+        </div>
+    <br>
+        <div class="hobby">
+            <h2>Mes loisirs :</h2>
+            <p>
+                J'aime beaucoup les films/Séries en VO ainsi que les jeux vidéo.<br>
+                Je m'intéresse également à la géopolitique, les conflits dans le monde et comprendre les rapports de force entre les puissances et de pouvoir suivre ça en temps réel.
+            </p>
+            <a href="https://www.youtube.com/c/LeDessousdesCartesARTE"><img class="geopoimage" src="geopo.png"></a>
         </div>      
     </section>
 
-    <section class="Second">
+    <section class="Second" id="deux">
         <div>
             <h2>Ma scolarité :</h2>
-            <p> J'ai beaucoup déménagé à cause du travail de ma mère.
-                J'ai donc fait plusieurs écoles à tout les niveaux. 
-                J'ai commencé le collège dans l'Oise puis fini en Loraine suivi du lycée à Metz puis fini en Alsace à Sélestat jusqu'à aujourd'hui à l'IUT de Colmar.</p>
-        </div>      
+            <p> 
+                Après la seconde je me suis orienté vers un BAC STI2D avec comme spécialité de première SIN. 
+                Cette spécialité m'a permis de voir certains aspects du numérique qui m'a intéressé.
+                Je me suis donc orienté vers un IUT, celui de Colmar faisait partie de mes choix.
+            </p>
+        </div>     
     </section>
     
-    <section class="Trois">
+    <section class="Trois" id="trois">
         <div>
-            <h2>Projet personnelle :</h2>
-            <p>Aujourd'hui mon projet personnelle n'est pas encore finalisé. Pour le moment mon projet est d'obtenir un dîplome et de m'engager dans l'armée. </p>
+            <h2>Projet personnel :</h2>
+            <p>
+                Aujourd'hui mon projet personnel n'est pas encore finalisé.
+                Pour le moment mon projet est d'obtenir un diplôme et de m'engager dans l'armée.
+                Actuellement en train de préparer mon dossier de réserve dans l'armée de terre.
+            </p>
+        </div>
+        <br>    
+        <div>
+            <h2>Stages :</h2>
+            <p>
+                J'ai eu l'occasion de pouvoir faire des stages à l'armée.
+                Le premier en 3ème et le second en 1ère dans le régiment des Hussards.
+                En stage une semaine à découvrir leurs méthodes d'apprentissage, leur travail avec les spécificités de chacun.
+            </p>
+            <img class="hussardimage" src="hussard.png">
         </div>
     </section>
 
+    <section class="Quatre" id="quatre">
+        <di>
+            <h2>to sum up :</h2>
+            <p>
+                My name is Aloïs Neron de Azevedo, I am 17 years old. I live in Sélestat sins 2 years. I really like movies and series and video games.
+                I'm interesting about geopolitical conflicts in the world. 
+                I did a technological highschool, I took SIN in spécificities than I discovered many aspects of computer science.
+                I found this way very interesting, so I apply to the Institut of technology in Colmar. 
+                Today my personal project is not defined, but I will probably join the Army.
+                I already made a discovery of this way and today I began my entry into the Army reserve.
+            </p>
+        </di>
+    </section>
+
     <footer>
-        <h3>Merci</h3>
+        <div>
+            <p class="retourautop"><a href="#hautdepage">Go back</a></p>
+        </div>
+        <div class="Divliens">
+            <p class="liens"><a href="https://e-services.uha.fr/fr/index.html"><img src="eservice.png" class="eservicelogo"></a></p>
+            <p class="liens"><a href="https://www.youtube.com/"><img src="youtube.png" class="youtubelogo"></a></p>
+            <p class="liens"><a href="https://www.netflix.com/fr/"><img src="netflix.png" class="netflix"></a></p>
+        </div>
     </footer>
 </body>
 </html>
