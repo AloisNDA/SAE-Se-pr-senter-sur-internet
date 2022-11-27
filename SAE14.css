@@ -5,7 +5,7 @@
 
 header{text-align: center;height: 150px;font-size: 80px;overflow: hidden;font-family: Source Sans Pro ;}
 
-section{height: 600px;font-size: 110%;overflow: hidden;padding-left: 20%;padding-right:20%;padding-top:3%;text-align: center;line-height: 200%;font-family: Prompt;}
+section{height: 600px;font-size: 110%;overflow: hidden;padding-left: 10%;padding-right:10%;padding-top:3%;text-align: center;line-height: 200%;font-family: Prompt;}
 
 .barnav{background-color: #283747;color: #D5D8DC;height: 50px;font-size: 20px;display: flex;flex-wrap: wrap;overflow: hidden;align-items: center;justify-content: center;font-family: Source Sans Pro ;}
 .barnav p a:hover{background-color:rgba(241, 233, 233, 0.648);}
