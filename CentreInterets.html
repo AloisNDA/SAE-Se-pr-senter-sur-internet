@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CentreInterets.css" rel="Stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+
+        <header class="titre">
+            <h1>Centre d'intérêt</h1>
+        </header>
+
+        <nav class="barnav">
+            <p><a href="#echec">Les Échecs</a></p>
+            <p><a href="#sudoku">Le Sudoku</a></p>
+        </nav>
+
+        <!------------------------------------------------------------------>
+        <div class="sujet">
+            <!------------------------------------------------------------------>
+            <article class="sujet1" id="echec">
+                <header>
+                    <h2>Les Échecs</h2>
+                </header>
+                <section>
+                    <article>
+                        <p>
+                            <b>Histoire :</b>
+                            Jeu d'origine incertaine, les échecs dans la forme moderne est répandu dans le monde entier et pratiquer par de nombreux joueurs.
+                        </p>
+                        <p>
+                            <b>L'obectif :</b>
+                            Mettre le Roi adverse en position d'échec et mat.
+                        </p>
+                        <h3><b>Les règles:</b></h3>
+                        <p>
+                            <b>L’échiquier</b><br>
+                            Les cases d’un échiquier sont numérotées, comme à la bataille navale.
+                            Sur un échiquier, il y a 8 colonnes (de a à h) et 8 rangées (de 1 à 8).
+                        </p>
+                        <p>
+                            <b>Les pièces</b><br>
+                            Au début de la partie, chaque joueur dispose de 16 pièces: un <b>Roi</b>, une <b>Dame</b>, deux <b>Tours</b>, deux <b>Fous</b>, deux <b>Cavaliers</b> et huit <b>pions</b>.
+                        </p>
+                        <img src="pièces.jpg" class="pieces">  
+                        <p><b>Placer les pièces sur l’échiquier</b></p>
+                        <img src="placement.jpg" class="placement">                   
+                        <h3><b>Les déplacements :</b></h3>
+                        <p>
+                            Généralités<br>
+                            Les deux joueurs jouent à tour de rôle en déplaçant une seule de leurs pièces (le roque est la seul exception).<br>
+                            Si une pièce se déplace sur une case occupée par une pièce adverse, celle-ci est prise et enlevée de l’échiquier.<br>
+                            Une pièce ne peut pas se placer sur une case occupée par une pièce de son propre camp.<br>
+                            Seul le Cavalier peut sauter au-dessus des autres pièces.<br>
+                        </p>
+                        <p><b>Le Pion :</b></p>
+                        <p>
+                            Le pion est la seule pièce qui ne peut pas reculer. C’est aussi la seule pièce qui ne prend pas comme elle avance. Les pions avancent en effet d’une case sur la même colonne, si la case située devant eux est libre. Ils prennent sur l’une ou l’autre des deux cases situées devant eux en diagonale. Un pion situé sur sa rangée de départ peut avancer de deux cases (mais il n’est pas obligé).
+                        </p>
+                        <img src="deplacement_pion.png" class="déplacement">
+                        <p><b>La Tour :</b></p>
+                        <p>
+                            La Tour se déplace horizontalement ou verticalement, d’autant de cases qu’elle veut. Dans le diagramme ci-dessous, on a indiqué en couleur toutes les cases où la Tour e4 peut aller. La Tour ne peut pas aller sur une case occupée par une pièce de son camp, ni sauter au-dessus d’une autre pièce.
+                        </p>
+                        <img src="deplacement_tour.png" class="déplacement">
+                        <p><b>Le Fou :</b></p>
+                        <p>
+                            Le Fou se déplace en diagonale, d’autant de cases qu’il veut. Dans le diagramme ci-dessus, on a indiqué en couleur toutes les cases où le Fou e4 peut aller. Chaque joueur dispose au départ d’un Fou sur une case noire et d’un Fou sur une case blanche. Ces Fous ne pourront jamais changer de couleur durant toute la partie.
+                        </p>
+                        <img src="deplacement_fou.png" class="déplacement">
+                        <p><b>Le Cavalier :</b></p>
+                        <p>
+                            Le déplacement du Cavalier est un peu plus compliqué, et il y a plusieurs façons de l’expliquer. J’aime bien dire que le Cavalier se déplace de deux cases horizontalement ou verticalement, puis fait un pas sur le côté. Il effectue donc une sorte de « L » majuscule, tourné dans n’importe quel sens. On peut remarquer qu’un Cavalier qui se trouve sur une case blanche ne peut, au coup suivant, aller que sur des cases noires (et inversement). Le Cavalier est la seule pièce qui peut sauter au-dessus des autres pièces (les siennes et celles de l’adversaire).
+                        </p>
+                        <img src="deplacement_cavalier.png" class="déplacement">
+                        <p><b>Le Roi :</b></p>
+                        <p>
+                            Le Roi se déplace d’une seule case, dans toutes les directions. Lorsqu’un Roi est attaqué par une pièce adverse, on dit qu’il est en échec. Un joueur n’a pas le droit de laisser son Roi en échec. Il n’a pas non plus le droit de déplacer son Roi sur une case où celui-ci sera attaqué (donc en échec).
+                        </p>
+                        <img src="deplacement_roi.png" class="déplacement">
+                        <p><b>La Reine :</b></p>
+                        <p>
+                            La Dame se déplace comme la Tour et le Fou: elle peut donc se déplacer verticalement, horizontalement et en diagonale, d’autant de cases qu’elle veut (sans bien sûr pouvoir passer au-dessus d’une autre pièce ou pouvoir prendre une pièce de son propre camp). Comme c’est la pièce la plus mobile, c’est aussi la pièce qui a la plus grande valeur.
+                        </p>
+                        <img src="deplacement_dame.png" class="déplacement">
+                        <p><b>PROMOTION :</b></p>
+                        <p>
+                            Lorsqu’un joueur avance un <b>pion</b> sur la dernière rangée, ou s’il prend avec un pion une pièce qui se trouve sur la dernière rangée, il doit le remplacer par une pièce de son choix (Dame, Tour, Fou ou Cavalier), de la même couleur (il est interdit de promouvoir un pion dans une pièce adverse !) quelles que soient les pièces restantes sur l’échiquier. Il peut ainsi se retrouver avec deux Dames, ou 3 Fous, etc.
+                        </p>
+                        <p><b>Le Roque :</b></p>
+                        <p>
+                            Le roque est un coup spécial qui concerne le Roi et l’une des deux Tours. Lorsque le Roi et cette Tour sont encore sur leurs cases initiales et qu’il n’y a plus de pièces entre eux, le joueur peut déplacer de deux cases le Roi vers la Tour, puis placer cette Tour sur la case juste à côté du Roi, de l’autre côté. Le roque peut être effectué sur l’aile roi (on parle alors de petit roque) ou sur l’aile dame (on parle alors de grand roque).
+
+                            La figure ci-dessous représente les deux étapes du petit roque des Blancs et du grand roque des Noirs. Il faut bien faire attention à bouger d’abord le Roi puis la Tour, sinon le coup est considéré comme illégal.
+                        </p>
+                        <img src="roque.png" class="déplacement">
+                        <h3>Le déroulement de la partie</h3>
+                        <p>
+                            <b>Le trait :</b>
+                            Le joueur ayant les Blancs commence, puis chaque joueur effectue un coup à tour de rôle. On dit du joueur qui doit jouer qu’il a le trait.
+                        </p>
+                        <p>
+                            <b>L’échec :</b>
+                            Lorsqu’un Roi est attaqué par une pièce adverse, on dit qu’il est en échec. Un joueur n’a pas le droit de laisser son Roi en échec. Il doit parer l’échec en prenant la pièce qui attaque le Roi, en déplaçant son Roi ou en interposant une pièce entre son Roi et l’attaquant.
+                        </p>
+                        <p>
+                            <b>L’échec et mat :</b>
+                            Le but du jeu est de mettre le Roi du joueur adverse en échec de telle façon que l’échec ne puisse pas être paré: on dit que ce joueur est échec et mat.
+                        </p>
+                    </article>
+                </section>
+            </article>
+            <!------------------------------------------------------------------>
+            <article class="sujet2" id="sudoku">
+                <header>
+                    <h2>Le Sudoku</h2>
+                </header>
+                <section>
+                    <article>
+                        <p>
+                            <b>Histoire :</b>
+                            Casse tête apparu au Etat Unis qui à ensuite été modifier par les japonais avant de devenir un succès mondial.<br>
+                            Le nom du jeu peut se traduire par chiffre unique car "Su" signifie chiffre et "doku" unique.<br>
+                            Tout les ans depuis 2006 un championnat du monde à lieu.
+                        </p>
+                        <p>
+                            <b>L'obectif :</b>
+                            Figure de 81 cases organisées en 9 rangées et 9 colonnes mais aussi en 9 blocs de 9 cases, 
+                            l’objectif du Sudoku est de déduire les chiffres des cases vides<br>
+                            <b>Note :</b> Chaque rangée doit contenir les chiffres 1 à 9 une et une seule fois.
+                        </p>
+                        <img src="grille-sudoku (1).jpg" class="grillesudoku">
+                        <h3>Les techniques de résolutions de base:</h3>
+                        <p><b>Candidat unique</b></p>
+                        <p>
+                            Lorsqu'une cellule spécifique ne peut contenir qu'un seul numéro, ce numéro est un "candidat unique". 
+                            Cela se produit chaque fois que tous les autres nombres sauf le nombre candidat existent dans le bloc, la colonne ou la ligne actuelle. 
+                            La cellule rouge ne peut contenir que le chiffre 5, car les huit autres chiffres ont tous été utilisés dans le bloc, la colonne et la ligne associés.
+                        </p>
+                        <img src="1seulcand.png" class="grillesudoku">
+                        <p>
+                            Vous savez que chaque bloc, ligne et colonne d'un tableau de Sudoku doit contenir tous les nombres entre 1 et 9. 
+                            Prenons 4, il peut être placé que dans une seule cellule d'un bloc/colonne/ligne. 
+                        </p>
+                        <img src="1seulcand02.png" class="grillesudoku">
+                        <p><b>Interaction bloc et colonne / ligne</b></p>
+                        <p>
+                            Cette méthode ne vous aidera pas à saisir de nouveaux chiffres au crayon, mais elle vous aidera à fixer un chiffre dans une ligne ou une colonne spécifique. 
+                            L'exemple montre que le chiffre 7 ne peut être inséré que dans les cellules rouges de la rangée du milieu. 
+                            Ainsi, vous pouvez supprimer 7 comme candidat possible du reste de la ligne.
+                        </p>
+                        <img src="blockcol.png" class="grillesudoku">
+                        <p><b>Interaction bloc/bloc</b></p>
+                        <p>
+                            Dans les blocs du milieu et du milieu-gauche, le chiffre 8 doit être placé dans l'une des cases rouges. 
+                            Cela signifie que nous pouvons éliminer 8 des rangées supérieure et inférieure dans la colonne du milieu à droite.
+                        </p>
+                        <img src="blockblock.png" class="grillesudoku">
+
+                        <div class="teclist">
+                            <b>Liste de techniques plus avancées</b>
+                            <ol>
+                                <li>Sous-ensemble nu</li>
+                                <li>Sous-ensemble masqué</li>
+                                <li>X-Wing</li>
+                                <li>Swordfish</li>
+                                <li>Forcing Chain</li>
+                            </ol>
+                        </div>
+                    </article>
+                </section>
+            </article>
+            <!------------------------------------------------------------------>
+        </div>
+        <!------------------------------------------------------------------>
+        <footer class="end">
+            <p class="liens"><a href="https://www.youtube.com/@GMIgorSmirnov" target="_blank"><img src="youtube.png" class="youtubelogo"></a></p>
+            <p class="liens"><a href="https://www.youtube.com/@SudokuGuy" target="_blank"><img src="youtube.png" class="youtubelogo"></a></p>
+        </footer>
+    </div>
+</body>
+
+
+
+</html>
+
+
+<!--    https://ecole.apprendre-les-echecs.com/regles-echecs/   -->
+<!--    https://www.kristanix.com/sudokuepic/sudoku-solving-techniques.php  -->
