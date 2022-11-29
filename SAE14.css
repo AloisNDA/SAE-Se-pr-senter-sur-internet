@@ -5,7 +5,7 @@
 
 body{background-color: #5d6d7e43;}
 
-.main{border: solid;border-radius: 5%;}
+.main{border: solid;border-radius: 3%;}
 
 header{text-align: center;height: 100px;font-size: 50px;overflow: hidden;font-family: Source Sans Pro ;}
 
@@ -17,11 +17,8 @@ header{text-align: center;height: 100px;font-size: 50px;overflow: hidden;font-fa
 section{font-size: 100%;overflow: hidden;text-align: center;line-height: 200%;font-family: Prompt,Source Sans Pro;}
 
 .Premier {background-color: #5D6D7E}
-
 .Second{background-color: #D5D8DC}
-
 .Trois{background-color: #5D6D7E}
-
 .Quatre{background-color: #D5D8DC}
 
 footer{background-color: #283747;color: #ffffff;font-size: 40px;overflow: hidden; font-family: Prompt,Source Sans Pro;height: 100px;text-align: center;}

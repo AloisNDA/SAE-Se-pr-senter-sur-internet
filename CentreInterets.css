@@ -1,7 +1,7 @@
 
-body{background-color: rgba(0, 0, 0, 0.864);}
+body{background-color: rgba(0, 0, 0, 0.864);background-image:url(plan2.jpg) ;background-repeat: no-repeat;background-position: center;background-size:cover;font-size: 150%;}
 
-.main{border: solid;border-color: red;margin: 0 auto;width: 1000px;}
+.main{margin: 0 auto;width: 1200px;}
 
 .titre{border: solid;border-color: brown;text-align: center;background-color: brown;text-align: center;}
 
@@ -9,26 +9,17 @@ body{background-color: rgba(0, 0, 0, 0.864);}
 .barnav p a:hover{background-color:rgba(241, 233, 233, 0.175);}
 .barnav p a{text-decoration: none; color: #D5D8DC;}
 
-article header{text-align: center;}
-.sujet1{
-    background-color: #5D6D7E;
-    border: solid;
-    border-color: #5D6D7E;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-.sujet2{
-    background-color: #D5D8DC;
-    border: solid;
-    border-color:#D5D8DC;
-    padding-left: 50px;
-    padding-right: 50px;
-}
+.sujet1 header{text-align: center;padding-left: 10px;padding-right: 10px; background-color: #D5D8DC;width: 136%;}
+.sujet1{background-color: #5D6D7E;border: solid;border-color: #5D6D7E;padding-right: 50px;display: flex;text-align: center;}
+.sectionchess{margin-left: 10px;display: flex;padding-top: 5%;}
+
+.sujet2 header{text-align: center;padding-left: 10px;padding-right: 10px; background-color: #5D6D7E;width: 80%;}
+.sujet2{background-color: #D5D8DC;border: solid;border-color:#D5D8DC;padding-right: 50px;display: flex;text-align: center;}
+.sectionsudoku{margin-left: 10px;display: flex;padding-top: 5%;}
 
 .teclist{border: dotted;border-color: red;padding: 3%;display:inline-block}
 
-.end{background-color: brown;display: flex;}
+.end{background-color: brown;display: flex;justify-content: center;}
 
 .youtubelogo{height: 100px;width: auto;}
-.grillesudoku{display: flex;margin-bottom: 30px;}
 .placement{height: 400px;width: auto;}
